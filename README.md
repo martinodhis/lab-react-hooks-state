@@ -13,6 +13,9 @@ Your task is to implement these features using **React Hooks (`useState`)** whil
 4. Display a **cart total** showing the number of items added.
 
 ---
+![Screenshot](./src/Images/Screenshot1.png)
+![Screenshot](./src/Images/Screenshot2.png)
+![Screenshot](./src/Images/Screenshot3.png)
 
 ## **Instructions**
 
