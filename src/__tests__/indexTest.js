@@ -3,6 +3,14 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import App from '../App'
 import { sampleProducts } from '../components/ProductList'
 import '@testing-library/jest-dom'
+// Suppress React deprecation warnings for act()
+const originalError = console.error;
+console.error = (...args) => {
+  if (/ReactDOMTestUtils.act is deprecated/.test(args[0])) {
+    return;
+  }
+  originalError.call(console, ...args);
+};
 
 test('toggles dark mode on button click', () => {
   render(<App />)

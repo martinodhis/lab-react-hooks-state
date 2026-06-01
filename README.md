@@ -8,16 +8,8 @@ Your company is developing a **new grocery shopping app** to improve the shoppin
 2. **Add to Cart** – Users can add items to the shopping cart.
 3. **Category Filtering** – Users can filter products by category.
 
-Your task is to implement these features using **React Hooks (`useState`)** while ensuring the app is functional and visually consistent.
+Your task is to implement these features using **React Hooks (`useState`)** while ensuring the app is functional and visually consistent
 
----
-
-## **Challenge**
-1. Implement a **dark mode toggle**.
-2. Allow users to **add items** from a shopping cart.
-3. Implement **category-based filtering** for the shopping list.
-
-## **Bonus Challenge**
 4. Display a **cart total** showing the number of items added.
 
 ---
@@ -41,29 +33,6 @@ Your task is to implement these features using **React Hooks (`useState`)** whil
    npm run dev
    ```
 
-### **2️⃣ Implement the Dark Mode Toggle**
-- Implement a **button** that toggles between light and dark mode.
-- The text of the toggle button should change dynamically.
-   - Feel free to also play with styling! However, you'll only be tested on the text of the dark mode toggle button.
-- Use the **useState hook** to manage the current theme.
-
-### **3️⃣ Implement the Add to Cart Feature**
-- Each product should have an **"Add to Cart"** button.
-- Clicking the button should add the item to the cart.
-- The cart should display a **list of added items** with the text 'Item is in your cart' such as 'Milk is in your cart.'
-
-### **4️⃣ Implement the Category Filter**
-- Create a **dropdown menu** to filter products by category.
-- When a user selects a category, **only matching products** should be displayed.
-- Use **state management (`useState`)** to track the selected category.
-
----
-
-## **Bonus Challenge: Cart Total**
-- Display a **cart total** showing how many items have been added.
-- The total should update dynamically when items are added.
-
----
 
 ## **Testing and Debugging**
 1. Run the test suite:
@@ -92,16 +61,3 @@ Your task is to implement these features using **React Hooks (`useState`)** whil
    git push origin main
    ```
 
----
-
-### **✅ Submission**
-- Submit your project as a **GitHub repository** to CodeGrade.
-
----
-
-## **Resources**
-- [React Docs: useState](https://react.dev/reference/react/useState)
-- [Material UI Documentation](https://mui.com)
-- [CSS Modules Documentation](https://github.com/css-modules/css-modules)
-- [Jest Testing Framework](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com)
